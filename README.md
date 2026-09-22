@@ -18,6 +18,12 @@
 | validate Token เป็นแบบ JWT | ออก/ตรวจ HS256 ใน [`jwt.go`](backend/internal/infrastructure/token/jwt.go) บังคับใช้ที่ [`authentication.go`](backend/internal/httpapi/authentication.go) |
 | โครงสร้างฐานข้อมูลออกแบบตามที่เหมาะสม | [Supabase migration](supabase/migrations/20260922000000_create_app_users.sql) |
 
+## ตัวอย่างหน้าจอ Frontend
+
+หน้าเว็บใช้ธีมสีเขียว–ทองและแบ่งพื้นที่แบรนด์ออกจากแบบฟอร์มอย่างชัดเจน โดยใช้รูปแบบเดียวกันในหน้า Login, Register และ Welcome พร้อมปรับเป็นแนวตั้งอัตโนมัติเมื่อเปิดบนมือถือ
+
+![ตัวอย่างหน้าลงชื่อเข้าใช้งาน IT 02-1](docs/images/frontend-login.svg)
+
 ---
 
 ## เริ่มใช้งาน

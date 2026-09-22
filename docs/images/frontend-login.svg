@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title description">
+  <title id="title">หน้าลงชื่อเข้าใช้งาน IT 02-1</title>
+  <desc id="description">ตัวอย่างหน้าจอระบบสมาชิกในธีมสีเขียวและสีทองของ ThaiBev</desc>
+
+  <defs>
+    <filter id="shadow" x="-10%" y="-15%" width="120%" height="135%">
+      <feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#113724" flood-opacity="0.15"/>
+    </filter>
+    <clipPath id="panel-clip">
+      <rect x="50" y="50" width="1100" height="660" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="760" fill="#eef2ed"/>
+
+  <g filter="url(#shadow)">
+    <rect x="50" y="50" width="1100" height="660" rx="16" fill="#ffffff" stroke="#dce6df"/>
+  </g>
+
+  <g clip-path="url(#panel-clip)">
+    <rect x="50" y="50" width="430" height="660" fill="#004a2e"/>
+    <circle cx="468" cy="667" r="260" fill="none" stroke="#c8a85a" stroke-opacity="0.27"/>
+    <circle cx="468" cy="667" r="210" fill="#c8a85a" fill-opacity="0.035"/>
+
+    <g aria-label="ThaiBev logo">
+      <rect x="103" y="101" width="185" height="86" fill="#ffffff"/>
+      <rect x="103" y="101" width="4" height="86" fill="#c8a85a"/>
+      <text x="126" y="139" fill="#087843" font-family="Arial, sans-serif" font-size="34" font-weight="700">ThaiBev</text>
+      <circle cx="250" cy="119" r="4" fill="#c8a85a"/>
+      <path d="M139 151 C177 142 217 143 257 150 C229 149 207 154 188 163 C173 170 153 173 131 169 C158 166 180 160 197 153 C178 151 159 152 139 155Z" fill="#c8a85a"/>
+      <path d="M189 162 C214 153 237 151 267 154 C252 169 233 176 205 179 C218 173 225 168 227 162 C213 161 201 162 189 165Z" fill="#087843"/>
+    </g>
+
+    <text x="103" y="294" fill="#e5d3a5" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2.5">MEMBER PORTAL</text>
+    <text x="103" y="345" fill="#ffffff" font-family="Noto Sans Thai, Tahoma, sans-serif" font-size="35" font-weight="700">เติบโตไปด้วยกัน</text>
+    <text x="103" y="393" fill="#ffffff" font-family="Noto Sans Thai, Tahoma, sans-serif" font-size="35" font-weight="700">อย่างมั่นคงและยั่งยืน</text>
+    <text x="103" y="446" fill="#ffffff" fill-opacity="0.76" font-family="Noto Sans Thai, Tahoma, sans-serif" font-size="16">ระบบสมาชิกที่เรียบง่าย ปลอดภัย</text>
+    <text x="103" y="474" fill="#ffffff" fill-opacity="0.76" font-family="Noto Sans Thai, Tahoma, sans-serif" font-size="16">และพร้อมใช้งานในทุกอุปกรณ์</text>
+
+    <rect x="103" y="649" width="66" height="3" fill="#c8a85a"/>
+    <rect x="178" y="649" width="28" height="3" fill="#ffffff" fill-opacity="0.38"/>
+    <circle cx="220" cy="650.5" r="4" fill="#c8a85a"/>
+  </g>
+
+  <g font-family="Noto Sans Thai, Tahoma, Arial, sans-serif">
+    <text x="550" y="128" fill="#00633d" font-family="Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="2.2">THAIBEV DIGITAL SERVICES</text>
+    <text x="550" y="185" fill="#17251d" font-family="Arial, sans-serif" font-size="40" font-weight="750">IT 02-1</text>
+    <text x="550" y="218" fill="#617067" font-size="16">ระบบจัดการบัญชีผู้ใช้งาน</text>
+    <line x1="550" y1="255" x2="1063" y2="255" stroke="#e6ebe7"/>
+
+    <text x="550" y="333" fill="#2e3f35" font-size="16" font-weight="700">User</text>
+    <rect x="550" y="349" width="513" height="54" rx="6" fill="#ffffff" stroke="#c5d0c8"/>
+
+    <text x="550" y="457" fill="#2e3f35" font-size="16" font-weight="700">Password</text>
+    <rect x="550" y="473" width="513" height="54" rx="6" fill="#ffffff" stroke="#c5d0c8"/>
+
+    <rect x="550" y="562" width="202" height="54" rx="5" fill="#00633d"/>
+    <rect x="550" y="614" width="202" height="2" fill="#004a2e"/>
+    <text x="651" y="596" fill="#ffffff" font-size="17" font-weight="700" text-anchor="middle">ลงชื่อเข้าใช้งาน</text>
+
+    <text x="1063" y="596" fill="#00633d" font-size="16" font-weight="700" text-anchor="end" text-decoration="underline" text-decoration-color="#c8a85a">สมัครสมาชิก</text>
+
+    <line x1="550" y1="655" x2="1063" y2="655" stroke="#e6ebe7"/>
+    <text x="550" y="687" fill="#879189" font-family="Arial, sans-serif" font-size="10" letter-spacing="1.5">THAI BEVERAGE PUBLIC COMPANY LIMITED</text>
+  </g>
+</svg>
