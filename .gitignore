@@ -1,0 +1,25 @@
+# Go
+backend/it02-auth-api
+backend/data/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/node_modules/.tmp/
+
+# Local configuration. Ignore every env file and re-admit only the tracked
+# templates, so a new variant (.env.local, .env.production, .env.dev.local)
+# cannot be committed by accident just because nobody added a rule for it.
+.env
+.env.*
+!.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# macOS
+.DS_Store
+
+# IDE-local settings
+.idea/
